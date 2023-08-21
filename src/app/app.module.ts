@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { PrimepipesPipe } from './primepipes.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PrimepipesPipe
   ],
   imports: [
     BrowserModule,

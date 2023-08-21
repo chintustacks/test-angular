@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test-angular';
+  numbers:Array<any>=[]
+  constructor(){
+    for(let i=0;i<10;i++){
+      this.numbers.push(i)
+    }
+  }
+  
+
 }
