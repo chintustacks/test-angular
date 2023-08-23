@@ -1,9 +1,9 @@
 import { Pipe, PipeTransform } from '@angular/core';
 
 @Pipe({
-  name: 'primepipes'
+  name: 'primenumberPipes'
 })
-export class PrimepipesPipe implements PipeTransform {
+export class PrimenumberPipesPipe implements PipeTransform {
 
   transform(numbers: number[]): number[] {
     return numbers.filter(num => this.isPrime(num));
